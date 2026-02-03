@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Award, CheckCircle, GraduationCap } from 'lucide-react';
 
 export default function About() {
@@ -8,16 +9,16 @@ export default function About() {
           
           {/* Lado da Imagem/Destaque */}
           <div className="w-full md:w-1/2 relative">
-            <div className="aspect-[3/4] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl relative z-10">
+            <div className="aspect-3/4 bg-slate-200 rounded-2xl overflow-hidden shadow-2xl relative z-10">
               {/* Substitua a URL abaixo pela foto real do advogado */}
               <img 
-                src="https://espacocerto.net.br/wp-content/uploads/2022/02/desafios-iniciais-da-carreira-de-advogado.jpeg" 
+                src="/alanreis.jpg" 
                 alt="Advogado Responsável"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
             </div>
             {/* Elemento Decorativo (Quadrado Dourado atrás da foto) */}
-            <div className="absolute -bottom-6 -left-6 w-64 h-64 bg-amber-500/10 rounded-2xl -z-0"></div>
+            <div className="absolute -bottom-6 -left-6 w-64 h-64 bg-amber-500/10 rounded-2xl z-0"></div>
           </div>
 
           {/* Lado do Texto */}
