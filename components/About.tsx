@@ -11,7 +11,7 @@ export default function About() {
             <div className="aspect-[3/4] bg-slate-200 rounded-2xl overflow-hidden shadow-2xl relative z-10">
               {/* Substitua a URL abaixo pela foto real do advogado */}
               <img 
-                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80&w=800" 
+                src="https://espacocerto.net.br/wp-content/uploads/2022/02/desafios-iniciais-da-carreira-de-advogado.jpeg" 
                 alt="Advogado Responsável"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
